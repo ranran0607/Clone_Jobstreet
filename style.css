@@ -4,6 +4,31 @@
     box-sizing: none;
 }
 
-.hdrMain ul {
+
+
+p {
     font-size: 1.5rem;
+}
+
+.hdrMain a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 0 2rem;
+
+}
+
+.hdr-mainContent {
+    display: flex;
+}
+
+.hdr-mainContent nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    text-align: center;
+    list-style: none;
 }
