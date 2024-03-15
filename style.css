@@ -4,31 +4,54 @@
     box-sizing: none;
 }
 
-
-
-p {
+p,
+a {
     font-size: 1.5rem;
+    font: inherit;
+    color: gray;
 }
 
 .hdrMain a {
     font-size: 1.5rem;
     text-decoration: none;
     padding: 0 2rem;
-
 }
 
 .hdr-mainContent {
     display: flex;
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 20rem;
+    padding: 10px;
 }
 
-.hdr-mainContent nav {
+.hdr-mainContent,
+nav {
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
+
 ul {
     display: flex;
     text-align: center;
     list-style: none;
+}
+
+.btn-md {
+    display: flex;
+    text-align: center;
+    list-style: none;
+}
+
+.nav-left {
+    padding-left: 20px;
+}
+
+.nav-right {
+    position: absolute;
+    right: 20rem;
+    padding-right: 10px;
 }
